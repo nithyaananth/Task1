@@ -12,10 +12,10 @@
 </head>
 
          <body>
-
-<header>
+<div class="container">
+<header class="header">
     <h2>Trabook</h2>
-  <img src="Vector.svg" alt="vector">
+  <img src="Vector.png" alt="vector">
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
@@ -41,13 +41,19 @@
 </section>
 
 <div class="search-box">
-    <input type="text" placeholder="Location">
-    <input type="date">
-    <select>
-        <option>Guests</option>
-        
-    </select>
-    <button>Explore Now</button>
+    <div class="search-item">
+        <div class="label">Location</div>
+        <div class="subtext">Where are you going</div>
+    </div>
+    <div class="search-item">
+        <div class="label">Date</div>
+        <div class="subtext">When you will go</div>
+    </div>
+    <div class="search-item">
+        <div class="label">Guest</div>
+        <div class="subtext">Number of guest</div>
+    </div>
+    <button class="btn-explore">Explore Now</button>
 </div>
 
 
@@ -60,7 +66,8 @@
         <div class="thing-item">
             <div class="icon">
                 <!-- Replace with actual icon -->
-                <img src="sign Up1 icon.png" alt="Sign Up">
+                <img src="sign Up1 icon.png" alt="Sign Up"> 
+                <img src="Vector 4856 (1).png" alt="vector">
             </div>
             <h3>Sign Up</h3>
             <p>Complete all the work associated with planning and processing.</p>
@@ -126,19 +133,25 @@
             </div>
         </div>
     </div>
-    <div class="arrow-btn1"><i class="fas fa-arrow-right"></i>
-    <div class="arrow-btn2"><i class="fas fa-arrow-right"></i></div>
+    <div class="button4-row">
+        <button class="btn btn5-white">&#8592;</button>
+        <button class="btn btn6-orange">&#8594;</button>
     </div>
 </section>
 
 
 <!-- Best Vacation Plan -->
 <section class="vacation">
+    
     <h2>Best <span>vacation plan</span></h2>
     <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!</p>
-    
-    <div class="arrow-btn3" style="position: relative;"><i class="fas fa-arrow-left"></i></div>
-    <div class="arrow-btn4"><i class="fas fa-arrow-right"></i></div>
+    <div class="button1-row">
+        <button class="btn btn2-white">&#8592;</button>
+        <button class="btn btn3-orange">&#8594;</button>
+    </div>
+
+    <div class=" element">
+    <img src="Element.png" class="element right-element"  alt ="Element"></div>
     
     <div class="deals-grid">
         <div class="deal-card">
@@ -179,9 +192,6 @@
     
 </section>
 
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
 
 <!--People about us-->
 <section class="testimonial-section">
@@ -189,8 +199,10 @@
     <div class="testimonial-text">
         <h2>What people say <span>about us.</span></h2>
         <p>Our Clients send us bunch of smiles with our services and we love them.</p>
-        <div class="fas fa-arrow-left"> <br><br>
-        <div class="arrow-btn">&#8594;</div></div>
+        <div class="buttons-row">
+  <button class="btn btn1-white">&#8592;</button>
+  <button class="btn btn2-orange">&#8594;</button>
+</div>
     </div>
 
     <!-- Testimonial Card -->
@@ -204,7 +216,11 @@
         <div>
                 <h4>Mike Taylor</h4>
                 <span>London, Pakistan</span>
-                </div>
+                </div></div>
+         <div id="testimonial-card">
+            <h4>Chris Thomas</h4>
+            <span> CEO of Red Button</span>
+               
     </div>
 </section>
 
@@ -240,17 +256,17 @@
   </div>
 
   <div class="dots">
-    <span class="dot"></span>
-  </div>
-</section>
+    <img src="Slider.png" alt="slider">
+    </section>
 
 
 
 <!--Footer-->
 
-<footer class="footer">
+<!--<footer class="footer">-->
     <div class="footer-container">
-        <div class="subscribe-box">
+        <img src="Subscribe.png" alt="subscribe"></div>
+        <!--<div class="subscribe-box">
             <div class="subscribe-content">
                 <h2>Subscribe and get exclusive deals & offer</h2>
                 <div class="subscribe-input-group">
@@ -258,19 +274,17 @@
                     <button class="subscribe-btn">Subscribe</button>
                 </div>
             </div>
-            <!--<div class="subscribe-decoration">
-                <img src="https://via.placeholder.com/100x100" alt="Decoration" class="decoration-img">
-            </div>-->
-        </div>
+            
+        </div>-->
 
         <div class="footer-links-row">
             <div class="footer-column">
-                <h3>Trabook class<img src="Vector.svg" alt="vector"></h3>
+                <h3>Trabook class<img src="Vector.png" alt="vector"></h3>
                 <p>Book your trip in a minute, get full control for much longer.</p>
                 <div class="social-icons">
-                     <img src="f.png" alt="f">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                     <img src="Social.png" alt="Social">
+                   <!-- <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>-->
                 </div>
             </div>
             <div class="footer-column">
